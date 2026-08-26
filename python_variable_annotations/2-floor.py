@@ -2,6 +2,6 @@
 """add - sum a and b"""
 
 
-def floar(n: float) -> int:
+def floor(n: float) -> int:
     """function to add operator ..................................."""
     return int(n)
