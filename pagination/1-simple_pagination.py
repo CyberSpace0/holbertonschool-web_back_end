@@ -2,8 +2,7 @@
 """This module implements hypermedia pagination for a dataset of baby names."""
 
 import csv
-import math
-from typing import Any, Dict, List, Tuple, Optional
+from typing import List, Tuple
 
 
 def index_range(page: int, page_size: int) -> Tuple[int, int]:
