@@ -10,7 +10,3 @@ def list_all(mongo_collection) -> None:
 
     for database in databases:
         print(database)
-
-
-if __name__ == "__main__":
-    list_all()
